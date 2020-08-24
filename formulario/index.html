@@ -8,13 +8,16 @@
     <body>
         <h1>Bienvenido a PetBook</h1>
         <p>
-            En esta página podras registrar a mascota y poder realizar un control adecuado de
-            sus cuidados, vacunas, dieta personalizada, etc.
+            Registra a tu mascota y podras acceder a diversos contenidos y consejos para un control 
+            adecuado de sus cuidados, vacunas, dieta personalizada, etc.
         </p>
         
         <div id="formulario">
-            <h3>Complete el formulario para registrar a su mascota ;)</h3>
-            <form>
+            <h3>Completa el formulario de registro</h3>
+            <form
+                action="https://formspree.io/adrian_fragata@hotmail.com"
+                method="POST"
+            >
                 <label>Nombre de su mascota:<input type="text" name="Nombre" placeholder="Nombre" required></label><br>
                 <label>Años de su mascota:<input type="number" name="años" placeholder="Años" required></label><br>
                 <label for="email">Email de contacto:</label>
