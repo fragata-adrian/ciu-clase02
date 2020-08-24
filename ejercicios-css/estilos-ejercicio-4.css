@@ -1,0 +1,28 @@
+.elImperio {
+    background-color:red;
+}
+
+.losRebeldes {
+    background-color:blue;
+}
+
+#darthVader {
+    font-size: 200%;
+}
+
+#luke {
+    font-style: italic;
+}
+
+.soldados {
+    border: dashed;
+    letter-spacing: 2px;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
